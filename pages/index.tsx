@@ -239,7 +239,7 @@ export default function Conversation() {
             flexGrow: 1,
           }} onDoubleClick={handleListClear}>
             <NoSSR>
-              {ChatGptModelData[chatModel]?.title || 'Select Model'} · {systemPurpose}
+              Welcome to my chat platform
             </NoSSR>
           </Typography>
 
